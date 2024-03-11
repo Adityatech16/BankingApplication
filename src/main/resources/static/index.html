@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Application</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Account</h1>
+        <form id="accountForm">
+            <label for="accountNo">Account Number:</label>
+            <input type="text" id="accountNo" name="accountNo" required>
+
+            <label for="accountHolderName">Account Holder Name:</label>
+            <input type="text" id="accountHolderName" name="accountHolderName" required>
+
+            <label for="balance">Balance:</label>
+            <input type="number" id="balance" name="balance" required>
+
+            <button type="submit">Add Account</button>
+        </form>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

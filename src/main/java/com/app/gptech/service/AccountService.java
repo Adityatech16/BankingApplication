@@ -9,16 +9,24 @@ public interface AccountService {
 	public AccountDto addAccount(AccountDto accountdto);
 
 	
-	/*
-	 * public AccountDto AddAllAccouts(List<AccountDto> accountDtos);
-	 * 
-	 * public AccountDto getAccountById(int accountNo);
-	 * 
-	 * public AccountDto getAllAccounts();
-	 * 
-	 * public AccountDto depositeAmount(int accointNo,AccountDto accountDto );
-	 * 
-	 * public AccountDto withdralAmount(int accointId,AccountDto accountDto );
-	 * public String deleteAccount(int accountNo);
-	 */
+	
+	//  public AccountDto AddAllAccouts(List<AccountDto> accountDtos);
+	  
+	  public AccountDto getAccountByAccountNo(int accountNo);
+	  
+     public List<AccountDto> getAllAccounts();
+	  
+	 public AccountDto depositeAmount(int accointNo,Double amount );
+	  
+	//  public AccountDto withdralAmount(int accointId,AccountDto accountDto );
+//	  public String deleteAccount(int accountNo);
+
+
+
+	 //  AccountDto AccountByAccountNo(int accountNo);
+
+
+
+	//public AccountDto getAccountById(int accountNo);
+	 
 }
